@@ -9,68 +9,75 @@ The population of Colorado is comprised of 30% hispanic citizens, but 60% of the
 
 This project is in collaboration with Sandra Halvatzis/Halvatzis Consulting for Colorado Hispanic Chamber of Commerce on Market Insights Report # 1002 - Driving Equitable Growth in Colorado: A Look Back to Move Forward.
 
-<p>
-<img src="images/COHCC.png" width="200">
-<p>
+<a href="https://www.hispanicchamberdenver.com/">
+<img border="0" alt="COHCC" src="images/COHCC.png" width="200"></a>
 
 ### Hispanic Population/Density by County
 This figure shows the percentage of hispanic people per county (shaded in blue) and the population of hispanics in said county is labeled. The bar graph shows another representation.
 
-https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/HispanicPopulation?publish=yes
+[Hispanic Population/Density Per County](https://public.tableau.com/shared/JCBFRJDR6?:display_count=y&:origin=viz_share_link)
+
+<div class='tableauPlaceholder' id='viz1597025356010' style='position: relative'><noscript>
+<a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Q5&#47;Q5Q5GZNTF&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;Q5Q5GZNTF' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Q5&#47;Q5Q5GZNTF&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1597025356010');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='777px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
 ## Environmental Factors
 
 ### AQI Max 2018 Map
 This map shows the maximum recorded air quality index level for each county in Colorado in the year of 2018. The circles on the map represent the percent and population of hispanic people per each county, respectively.
 
-Air Quality Index is an indicator of overall air quality, because it takes into account all of the criteria air pollutants measured within a geographic area. AQI includes all available pollutant measurements from each monitoring station. They include both qualitative measures (days of the year having "good" air quality, for example) and descriptive statistics (median AQI value, for example) [Source: https://www.epa.gov/outdoor-air-quality-data/about-air-data-reports#aqi]
+Air Quality Index is an indicator of overall air quality, because it takes into account all of the criteria air pollutants measured within a geographic area. AQI includes all available pollutant measurements from each monitoring station. They include both qualitative measures (days of the year having "good" air quality, for example) and descriptive statistics (median AQI value, for example) [[Source](https://www.epa.gov/outdoor-air-quality-data/about-air-data-reports#aqi)]
 
-https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/AQIMax2018Map_Doc?publish=yes
+[Max AQI Map](https://public.tableau.com/views/COHispanicCounties-Display/MaximumAirQualityIndex2018Map_Doc?:language=en&:display_count=y&:origin=viz_share_link)
 
 ### AQI Median 2018 Plot
 This plot shows the median Air Quality index in 2018 for each county in Colorado that has data recorded from the Environmental Protection Agency (EPA). There appears to be a positive correlation between the size of the population and the median air quality index level. It it worth noting that many of the counties exhibiting a higher AQI have high hispanic populations.
 
-https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/AQIMedian2018Doc?publish=yes
+[Median AQI Map](https://public.tableau.com/views/COHispanicCounties-Display/MaximumAirQualityIndex2018Map_Doc?:language=en&:display_count=y&:origin=viz_share_link)
 
 ### Most Polluted Zip Codes in Colorado
 The most polluted zip codes in Colorado, according to the Denver post are plotted in the map below. The zip code 80216 has an extremely high environmental hazard index, and also a very high concentration of hispanic people. The next most polluted zip codes do not appear to be nearly as hazardous, but generally have a smaller percentage of hispanic residents.
 
-https://public.tableau.com/profile/jacob.budnick#!/vizhome/ZipCodeEnvironmentalHazard/MostPollutedZipCodes?publish=yes
+[Most Polluted Zip Codes](https://public.tableau.com/profile/jacob.budnick#!/vizhome/ZipCodeEnvironmentalHazard/MostPollutedZipCodes?publish=yes)
 
 ## Education
 
 ### Hispanic Graduation Rates by County
 This map shows the class of 2018-2019 graduation rates of hispanic people over the counties of Colorado. There appears to be much lower rates in rural counties, though few of them are highly hispanic.
 
-https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/HispanicGraduationRatesbyCountyDoc?publish=yes
+[Hispanic Grad Rates Map](https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/HispanicGraduationRatesbyCountyDoc?publish=yes)
 
 Ths plot shows that there appears to be a negative trend in graduation rates as the population increases. Also, it is important to note that the hispanic graduation rate is considerably lower than that of all compiled races. This disparity seems to get larger in counties with higher population. It may be possible that hispanics in urban counties aren't getting the educational resources they need to succeed.
 
-https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/GraduationRateperCountybyTotalPopulation?publish=yes
+[Hispanic Grad Rates Plot](https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/GraduationRateperCountybyTotalPopulation?publish=yes)
 
 ### Graduation Rates by Ethnicity
 This bar plot represents the race/ethnicity breakdown of high school graduation rates in the state of Denver. Again, hispanics seem to have rates below the other major races, and they appear worse in Denver county.
 
-https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/GradRatesbyRace?publish=yes
+[Hispanic Grad Rates by Ethnicity](https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/GradRatesbyRace?publish=yes)
 
 ### Female Graduation Rates by Ethnicity
 This bar plot represents ethnicity/race breakdown of female graduation races throughout the state and in Denver county. Again, hispanics seem to have lower graduation rates than those of other ethnicities in Colorado.
-https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/FemaleGradRates?publish=yes
+
+[Female Grad Rates by Ethnicity](https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/FemaleGradRates?publish=yes)
 
 ### Male Graduation Rates by Ethnicity
 This bar plot represents ethnicity/race breakdown of male graduation races throughout the state and in Denver county. Male hispanics seem to have lower graduation rates than those of other ethnicities as well. It is worth noting that the graduation rates are significantly lower in Denver than throughout the whole state.
-https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/MaleGraduationRatesbyRaceCounty?publish=yes
+
+[Male Grad Rates by Ethnicity](https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/MaleGraduationRatesbyRaceCounty?publish=yes)
 
 ### Hispanic Graduation Rates by Gender/County
 From this bar plot, hispanic females seem to have much higher graduation rates than hispanic males. Interestingly, Pueblo County has higher graduation rates for Hispanic males and females than average.
-https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/Dashboard9?publish=yes
+
+[Hispanic Grad Rates by Gender/County](https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/Dashboard9?publish=yes)
 
 ### English Non-Fluency by County
 This map shows the average percentage of people per county that do not speak fluent english. Many of the higher rates of nonfluency are in areas of high hispanic concentration.
-https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/EnglishFluency?publish=yes
+
+[English Non-fluency Map](https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/EnglishFluency?publish=yes)
 
 This bar plot shows the percentage of non-english speakers in the counties in colorado with the highest concentration of those not fluent in English. Spanish is definitely the most common non-english language spoken throughout these areas.
-https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/Dashboard11?publish=yes
+
+[Non-English Speakers Language](https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/Dashboard11?publish=yes)
 
 ## Food Access
 
@@ -78,19 +85,27 @@ https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/Da
 Shown is a map of low access, low income census tracts throughout the city of Denver, and the percentage of people affected. The circles on the census tract areas represent the population of hispanic people. Low-income census tracts where a significant number (at least 500 people) or share (at least 33 percent) of the population is greater than 1.0 mile from the nearest supermarket, supercenter, or large grocery store for an urban area or greater than 10 miles for a rural area.
 
 There are two areas of concern, colored orange and red that have high levels of low access. It is worth noting that the orange area is also inside zip code 80216, which has a population that is about 80% hispanic. The zip code 80216 also has very high levels of air pollution.
-https://public.tableau.com/profile/jacob.budnick#!/vizhome/FoodDesertsCO/LowAccessLowIncome1MiDenver?publish=yes
+
+[Low Income Low Access Map - Denver](https://public.tableau.com/profile/jacob.budnick#!/vizhome/FoodDesertsCO/LowAccessLowIncome1MiDenver?publish=yes)
 
 ### Metro Denver Low Access (1 mile)
 This map represents metro Denver census tracts and the tracts that are considered low access.
-https://public.tableau.com/profile/jacob.budnick#!/vizhome/FoodDesertsCO/MetroDenverLowAccessTract1miUrban?publish=yes
+
+[Metro Denver Low Access](https://public.tableau.com/profile/jacob.budnick#!/vizhome/FoodDesertsCO/MetroDenverLowAccessTract1miUrban?publish=yes)
 
 ### Denver Low Vehicle Access
 This map represents metro Denver census tracts that are low access and a signicant number of people have low access to a vehicle.
-https://public.tableau.com/profile/jacob.budnick#!/vizhome/FoodDesertsCO/DenverLowVehicleAccess?publish=yes
+
+[Denver Low Vehicle Access](https://public.tableau.com/profile/jacob.budnick#!/vizhome/FoodDesertsCO/DenverLowVehicleAccess?publish=yes)
 
 ### Low Access (20+ mile) and No Vehicle Access
 This plot represents the census tracks in Colorado that are more than 20 miles away from the nearest grocery store or supermarket and have little to no vehicle access. Although not a large quantity of hispanics fall into this category, it is worth noting that the census tracts with the highest percentage of housing units effected also appear to be largely hispanic communities. Costilla County contains the top two census tracts with the highest level.
-https://public.tableau.com/profile/jacob.budnick#!/vizhome/FoodDesertsCO/LowAccess20miNoVehicleAccessTract?publish=yes
+
+[20+ Mile Low Access, No Vehicle Access](https://public.tableau.com/profile/jacob.budnick#!/vizhome/FoodDesertsCO/LowAccess20miNoVehicleAccessTract?publish=yes)
+
+All visualizations in Tableau story format:
+
+[Tableau Story](https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties-Display/COHCCFigures?publish=yes)
 
 ## Future Work:
 
