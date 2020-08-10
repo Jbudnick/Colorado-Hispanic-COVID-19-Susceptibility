@@ -12,6 +12,8 @@ This project is in collaboration with Sandra Halvatzis/Halvatzis Consulting for 
 <a href="https://www.hispanicchamberdenver.com/">
 <img border="0" alt="COHCC" src="images/COHCC.png" width="200"></a>
 
+Please note that all the figures shown below are linked to the Tableau Public interactive version and can be further explored.
+
 ### Hispanic Population/Density by County
 This figure shows the percentage of hispanic people per county (shaded in blue) and the population of hispanics in said county is labeled. The bar graph shows another representation.
 
@@ -37,7 +39,8 @@ This plot shows the median Air Quality index in 2018 for each county in Colorado
 ### Most Polluted Zip Codes in Colorado
 The most polluted zip codes in Colorado, according to the Denver post are plotted in the map below. The zip code 80216 has an extremely high environmental hazard index, and also a very high concentration of hispanic people. The next most polluted zip codes do not appear to be nearly as hazardous, but generally have a smaller percentage of hispanic residents.
 
-[Most Polluted Zip Codes](https://public.tableau.com/profile/jacob.budnick#!/vizhome/ZipCodeEnvironmentalHazard/MostPollutedZipCodes?publish=yes)
+<a href="https://public.tableau.com/views/ZipCodeEnvironmentalHazard-Display/MostPollutedZipCodes?:language=en&:display_count=y&publish=yes&:origin=viz_share_link">
+<img border="0" alt="Most Polluted Zip Codes" src="images/MostPollutedZipCodes.png"></a>
 
 ## Education
 
@@ -45,7 +48,7 @@ The most polluted zip codes in Colorado, according to the Denver post are plotte
 This map shows the class of 2018-2019 graduation rates of hispanic people over the counties of Colorado. There appears to be much lower rates in rural counties, though few of them are highly hispanic.
 
 <a href="https://public.tableau.com/views/COHispanicCounties-Display/HispanicGraduationRatesbyCountyDoc?:language=en&:display_count=y&:origin=viz_share_link">
-<img border="0" alt="Hispanic Grad Rates Map" src="images/HispanicGraduationRatesMap.png" width="1000"></a>
+<img border="0" alt="Hispanic Grad Rates Map" src="images/HispanicGraduationRatesMap.png"></a>
 
 Ths plot shows that there appears to be a negative trend in graduation rates as the population increases. Also, it is important to note that the hispanic graduation rate is considerably lower than that of all compiled races. This disparity seems to get larger in counties with higher population. It may be possible that hispanics in urban counties aren't getting the educational resources they need to succeed.
 
@@ -74,7 +77,7 @@ This bar plot represents ethnicity/race breakdown of male graduation races throu
 From this bar plot, hispanic females seem to have much higher graduation rates than hispanic males. Interestingly, Pueblo County has higher graduation rates for Hispanic males and females than average.
 
 <a href="https://public.tableau.com/views/COHispanicCounties-Display/GraduationRatesPerCounty?:language=en&:display_count=y&publish=yes&:origin=viz_share_link">
-<img border="0" alt="Hispanic Grad Rates by Gender/County" src="images/GradRatesPerCounty.png" width="1000"></a>
+<img border="0" alt="Hispanic Grad Rates by Gender/County" src="images/GradRatesPerCounty.png" width="500"></a>
 
 ### English Non-Fluency by County
 This map shows the average percentage of people per county that do not speak fluent english. Many of the higher rates of nonfluency are in areas of high hispanic concentration.
@@ -94,22 +97,26 @@ Shown is a map of low access, low income census tracts throughout the city of De
 
 There are two areas of concern, colored orange and red that have high levels of low access. It is worth noting that the orange area is also inside zip code 80216, which has a population that is about 80% hispanic. The zip code 80216 also has very high levels of air pollution.
 
-[Low Income Low Access Map - Denver](https://public.tableau.com/profile/jacob.budnick#!/vizhome/FoodDesertsCO/LowAccessLowIncome1MiDenver?publish=yes)
+<a href="https://public.tableau.com/views/FoodDesertsCO-Display/LowAccessLowIncome1MiDenver?:language=en&:display_count=y&publish=yes&:origin=viz_share_link">
+<img border="0" alt="Low Income Low Access Map - Denver" src="images/LowAccessLowIncome1MiDenver.png" width="1000"></a>
 
 ### Metro Denver Low Access (1 mile)
 This map represents metro Denver census tracts and the tracts that are considered low access.
 
-[Metro Denver Low Access](https://public.tableau.com/profile/jacob.budnick#!/vizhome/FoodDesertsCO/MetroDenverLowAccessTract1miUrban?publish=yes)
+<a href="https://public.tableau.com/views/FoodDesertsCO-Display/MetroDenverLowAccessTract1miUrban?:language=en&:display_count=y&:origin=viz_share_link">
+<img border="0" alt="Metro Denver Low Access" src="images/MetroDenverLowAccessTract1miUrban.png" width="1000"></a>
 
 ### Denver Low Vehicle Access
 This map represents metro Denver census tracts that are low access and a signicant number of people have low access to a vehicle.
 
-[Denver Low Vehicle Access](https://public.tableau.com/profile/jacob.budnick#!/vizhome/FoodDesertsCO/DenverLowVehicleAccess?publish=yes)
+<a href="https://public.tableau.com/profile/jacob.budnick#!/vizhome/FoodDesertsCO-Display/DenverLowVehicleAccessMap">
+<img border="0" alt="Denver Low Vehicle Access" src="images/DenverLowVehicleAccessMap.png" width="1000"></a>
 
 ### Low Access (20+ mile) and No Vehicle Access
-This plot represents the census tracks in Colorado that are more than 20 miles away from the nearest grocery store or supermarket and have little to no vehicle access. Although not a large quantity of hispanics fall into this category, it is worth noting that the census tracts with the highest percentage of housing units effected also appear to be largely hispanic communities. Costilla County contains the top two census tracts with the highest level.
+This plot represents the census tracks in Colorado that are more than 20 miles away from the nearest grocery store or supermarket and have little to no vehicle access. Although not a large quantity of hispanics fall into this category, it is worth noting that the census tracts with the highest percentage of housing units effected also appear to be largely hispanic communities. Costilla County contains the top two census tracts with the highest levels.
 
-[20+ Mile Low Access, No Vehicle Access](https://public.tableau.com/profile/jacob.budnick#!/vizhome/FoodDesertsCO/LowAccess20miNoVehicleAccessTract?publish=yes)
+<a href="https://public.tableau.com/profile/jacob.budnick#!/vizhome/FoodDesertsCO-Display/LowAccess20miNoVehicleAccessTract">
+<img border="0" alt="20+ Mile Low Access, No Vehicle Access" src="images/LowAccess20NoVehicleAccessTract.png" width="1000"></a>
 
 All visualizations in Tableau story format:
 
