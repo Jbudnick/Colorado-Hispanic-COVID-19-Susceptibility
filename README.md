@@ -15,7 +15,8 @@ This project is in collaboration with Sandra Halvatzis/Halvatzis Consulting for 
 ### Hispanic Population/Density by County
 This figure shows the percentage of hispanic people per county (shaded in blue) and the population of hispanics in said county is labeled. The bar graph shows another representation.
 
-[Hispanic Population/Density Per County](https://public.tableau.com/shared/JCBFRJDR6?:display_count=y&:origin=viz_share_link)
+<a href="https://public.tableau.com/shared/JCBFRJDR6?:display_count=y&:origin=viz_share_link">
+<img border="0" alt="Hispanic Population/Density Per County" src="images/HispanicPopulation.png" width="1000"></a>
 
 ## Environmental Factors
 
@@ -24,12 +25,14 @@ This map shows the maximum recorded air quality index level for each county in C
 
 Air Quality Index is an indicator of overall air quality, because it takes into account all of the criteria air pollutants measured within a geographic area. AQI includes all available pollutant measurements from each monitoring station. They include both qualitative measures (days of the year having "good" air quality, for example) and descriptive statistics (median AQI value, for example) [[Source](https://www.epa.gov/outdoor-air-quality-data/about-air-data-reports#aqi)]
 
-[Max AQI Map](https://public.tableau.com/views/COHispanicCounties-Display/MaximumAirQualityIndex2018Map_Doc?:language=en&:display_count=y&:origin=viz_share_link)
+<a href="https://public.tableau.com/views/COHispanicCounties-Display/MaximumAirQualityIndex2018Map_Doc?:language=en&:display_count=y&:origin=viz_share_link">
+<img border="0" alt="Max AQI Map" src="images/MaximumAQI.png" width="1000"></a>
 
 ### AQI Median 2018 Plot
 This plot shows the median Air Quality index in 2018 for each county in Colorado that has data recorded from the Environmental Protection Agency (EPA). There appears to be a positive correlation between the size of the population and the median air quality index level. It it worth noting that many of the counties exhibiting a higher AQI have high hispanic populations.
 
-[Median AQI Map](https://public.tableau.com/views/COHispanicCounties-Display/MaximumAirQualityIndex2018Map_Doc?:language=en&:display_count=y&:origin=viz_share_link)
+<a href="https://public.tableau.com/views/COHispanicCounties-Display/AQIMedian2018Doc?:language=en&:display_count=y&:origin=viz_share_link">
+<img border="0" alt="Median AQI Map" src="images/AQIMedian2018Doc.png" width="1000"></a>
 
 ### Most Polluted Zip Codes in Colorado
 The most polluted zip codes in Colorado, according to the Denver post are plotted in the map below. The zip code 80216 has an extremely high environmental hazard index, and also a very high concentration of hispanic people. The next most polluted zip codes do not appear to be nearly as hazardous, but generally have a smaller percentage of hispanic residents.
@@ -41,40 +44,48 @@ The most polluted zip codes in Colorado, according to the Denver post are plotte
 ### Hispanic Graduation Rates by County
 This map shows the class of 2018-2019 graduation rates of hispanic people over the counties of Colorado. There appears to be much lower rates in rural counties, though few of them are highly hispanic.
 
-[Hispanic Grad Rates Map](https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/HispanicGraduationRatesbyCountyDoc?publish=yes)
+<a href="https://public.tableau.com/views/COHispanicCounties-Display/HispanicGraduationRatesbyCountyDoc?:language=en&:display_count=y&:origin=viz_share_link">
+<img border="0" alt="Hispanic Grad Rates Map" src="images/HispanicGraduationRatesMap.png" width="1000"></a>
 
 Ths plot shows that there appears to be a negative trend in graduation rates as the population increases. Also, it is important to note that the hispanic graduation rate is considerably lower than that of all compiled races. This disparity seems to get larger in counties with higher population. It may be possible that hispanics in urban counties aren't getting the educational resources they need to succeed.
 
-[Hispanic Grad Rates Plot](https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/GraduationRateperCountybyTotalPopulation?publish=yes)
+<a href="https://public.tableau.com/views/COHispanicCounties-Display/GraduationRateperCountybyTotalPopulation?:language=en&:display_count=y&publish=yes&:origin=viz_share_link">
+<img border="0" alt="Hispanic Grad Rates Plot" src="images/GraduationRateperCountybyTotalPopulation.png" width="1000"></a>
 
 ### Graduation Rates by Ethnicity
 This bar plot represents the race/ethnicity breakdown of high school graduation rates in the state of Denver. Again, hispanics seem to have rates below the other major races, and they appear worse in Denver county.
 
-[Hispanic Grad Rates by Ethnicity](https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/GradRatesbyRace?publish=yes)
+<a href="https://public.tableau.com/views/COHispanicCounties-Display/GradRatesbyRace?:language=en&:display_count=y&:origin=viz_share_link">
+<img border="0" alt="Hispanic Grad Rates by Ethnicity" src="images/GradRatesbyRace.png" width="1000"></a>
 
 ### Female Graduation Rates by Ethnicity
 This bar plot represents ethnicity/race breakdown of female graduation races throughout the state and in Denver county. Again, hispanics seem to have lower graduation rates than those of other ethnicities in Colorado.
 
-[Female Grad Rates by Ethnicity](https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/FemaleGradRates?publish=yes)
+<a href="https://public.tableau.com/views/COHispanicCounties-Display/FemaleGradRates?:language=en&:display_count=y&:origin=viz_share_link">
+<img border="0" alt="Female Grad Rates by Ethnicity" src="images/FemaleGradRates.png" width="1000"></a>
 
 ### Male Graduation Rates by Ethnicity
 This bar plot represents ethnicity/race breakdown of male graduation races throughout the state and in Denver county. Male hispanics seem to have lower graduation rates than those of other ethnicities as well. It is worth noting that the graduation rates are significantly lower in Denver than throughout the whole state.
 
-[Male Grad Rates by Ethnicity](https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/MaleGraduationRatesbyRaceCounty?publish=yes)
+<a href="https://public.tableau.com/views/COHispanicCounties-Display/MaleGraduationRatesbyRaceCounty?:language=en&:display_count=y&:origin=viz_share_link">
+<img border="0" alt="Male Grad Rates by Ethnicity" src="images/MaleGraduationRatesbyRaceCounty.png" width="1000"></a>
 
 ### Hispanic Graduation Rates by Gender/County
 From this bar plot, hispanic females seem to have much higher graduation rates than hispanic males. Interestingly, Pueblo County has higher graduation rates for Hispanic males and females than average.
 
-[Hispanic Grad Rates by Gender/County](https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/Dashboard9?publish=yes)
+<a href="https://public.tableau.com/views/COHispanicCounties-Display/GraduationRatesPerCounty?:language=en&:display_count=y&publish=yes&:origin=viz_share_link">
+<img border="0" alt="Hispanic Grad Rates by Gender/County" src="images/GradRatesPerCounty.png" width="1000"></a>
 
 ### English Non-Fluency by County
 This map shows the average percentage of people per county that do not speak fluent english. Many of the higher rates of nonfluency are in areas of high hispanic concentration.
 
-[English Non-fluency Map](https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/EnglishFluency?publish=yes)
+<a href="https://public.tableau.com/views/COHispanicCounties-Display/EnglishFluency?:language=en&:display_count=y&:origin=viz_share_link">
+<img border="0" alt="English Non-fluency Map" src="images/EnglishFluency.png" width="1000"></a>
 
 This bar plot shows the percentage of non-english speakers in the counties in colorado with the highest concentration of those not fluent in English. Spanish is definitely the most common non-english language spoken throughout these areas.
 
-[Non-English Speakers Language](https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties/Dashboard11?publish=yes)
+<a href="https://public.tableau.com/views/COHispanicCounties-Display/Non-EnglishbyCounty?:language=en&:display_count=y&:origin=viz_share_link">
+<img border="0" alt="Non-English Speakers Language" src="images/Non-EnglishbyCounty.png" width="1000"></a>
 
 ## Food Access
 
