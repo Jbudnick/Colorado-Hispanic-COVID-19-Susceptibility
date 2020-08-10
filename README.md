@@ -118,10 +118,6 @@ This plot represents the census tracks in Colorado that are more than 20 miles a
 <a href="https://public.tableau.com/profile/jacob.budnick#!/vizhome/FoodDesertsCO-Display/LowAccess20miNoVehicleAccessTract">
 <img border="0" alt="20+ Mile Low Access, No Vehicle Access" src="images/LowAccess20NoVehicleAccessTract.png" width="1000"></a>
 
-All visualizations in Tableau story format:
-
-[Tableau Story](https://public.tableau.com/profile/jacob.budnick#!/vizhome/COHispanicCounties-Display/COHCCFigures?publish=yes)
-
 ## Future Work:
 
 - Analyze Soil Quality
