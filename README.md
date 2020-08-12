@@ -148,7 +148,7 @@ There appears to be several regions in the state of Colorado where hispanics may
 - Analyze Water Quality
 - Analyze various levels of education per county
 
-Sources:
+## Sources:
 
 Header Image:
 https://www.ksut.org/post/covid-19-colorado-and-four-corners-numbers#stream/0
