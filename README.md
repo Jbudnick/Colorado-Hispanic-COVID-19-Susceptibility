@@ -5,17 +5,20 @@
 # COVID-19 Colorado Hispanic Disparity
 
 ## Introduction
-The population of Colorado is comprised of 30% hispanic citizens, but 60% of the COVID-19 cases are afflicting hispanic people, far outweighing any other ethnicity. In this project, I am exploring trends in environmental factors, education, and food availability in regions of the state with high hispanic populations to determine possible trends in this areas to account for this disparity.
+The population of Colorado is comprised of 22% hispanic citizens, but 39% of the COVID-19 cases are afflicting hispanic people, far outweighing any other ethnicity. In this project, I am exploring trends in environmental factors, education, and food availability in regions of the state with high hispanic populations to determine possible trends in these areas to account for this disparity.
 
-This project is in collaboration with Sandra Halvatzis/Halvatzis Consulting for Colorado Hispanic Chamber of Commerce on Market Insights Report # 1002 - Driving Equitable Growth in Colorado: A Look Back to Move Forward.
+This project is in collaboration with Halvatzis Consulting and Colorado Hispanic Chamber of Commerce on Market Insights Report # 1002 - Driving Equitable Growth in Colorado: A Look Back to Move Forward (full report currently work in progress)
 
 <a href="https://www.hispanicchamberdenver.com/">
 <img border="0" alt="COHCC" src="images/COHCC.png" width="200"></a>
+<t>
+<a href="https://www.halvatzis.com/">
+<img border="0" alt="Halvatzis Consulting" src="images/Halvatzis.png" width="200"></a>
 
 Please note that all the figures shown below are linked to the Tableau Public interactive version and can be further explored.
 
 ### Hispanic Population/Density by County
-This figure shows the percentage of hispanic people per county (shaded in blue) and the population of hispanics in said county is labeled. The bar graph shows another representation. It appears that Pueblo County, Adams County, Weld County, and Denver County have both a high concentration and high number of hispanic residents.
+This figure shows the percentage of hispanic people per county (shaded in blue) and the population of hispanics in said county is labeled on the map. The bar graph shows another representation. It appears that Pueblo County, Adams County, Weld County, and Denver County have both a high concentration and high number of hispanic residents. The population data came from the [Colorado Department of Local Affairs](https://demography.dola.colorado.gov/population/race-hispanic-origin/).
 
 <a href="https://public.tableau.com/shared/JCBFRJDR6?:display_count=y&:origin=viz_share_link">
 <img border="0" alt="Hispanic Population/Density Per County" src="images/HispanicPopulation.png"></a>
@@ -23,7 +26,7 @@ This figure shows the percentage of hispanic people per county (shaded in blue) 
 ## Environmental Factors
 
 ### AQI Max 2018 Map
-The following map shows the maximum recorded air quality index level for each county in Colorado (where data has been recorded) in the year of 2018. The circles on the map represent the percentage (color) and population (size) of hispanic people per each county. Based on regional trends, it appears that the center of the state west of Denver has recorded unhealthy air qualities. This could be due to wildfires in the mountains.
+The following map shows the maximum recorded air quality index level for each county in Colorado (where data has been recorded by the Environmental Protection Agency) in the year of 2018. The circles on the map represent the percentage (color) and population (size) of hispanic people per each county. Based on regional trends, it appears that the center of the state west of Denver has recorded unhealthy air qualities. This could be due to wildfires in the mountains.
 
 Air Quality Index is an indicator of overall air quality, because it takes into account all of the criteria air pollutants measured within a geographic area. AQI includes all available pollutant measurements from each monitoring station. They include both qualitative measures (days of the year having "good" air quality, for example) and descriptive statistics (median AQI value, for example) [[Source](https://www.epa.gov/outdoor-air-quality-data/about-air-data-reports#aqi)]
 
@@ -45,7 +48,7 @@ The most polluted zip codes in Colorado, according to the Denver post, are plott
 ## Education
 
 ### Hispanic Graduation Rates by County
-This map shows the class of 2019 graduation rates of hispanic people over the counties of Colorado. There appears to be much lower rates in rural counties, though few of them are highly hispanic.
+This map shows the class of 2019 graduation rates of hispanic people over the counties of Colorado, based on data from the [Colorado Department of Education](https://www.cde.state.co.us/). There appears to be much lower rates in rural counties, though few of them are highly hispanic.
 
 <a href="https://public.tableau.com/views/COHispanicCounties-Display/HispanicGraduationRatesbyCountyDoc?:language=en&:display_count=y&:origin=viz_share_link">
 <img border="0" alt="Hispanic Grad Rates Map" src="images/HispanicGraduationRatesMap.png"></a>
@@ -80,7 +83,7 @@ From this bar plot, hispanic females seem to have much higher graduation rates t
 <img border="0" alt="Hispanic Grad Rates by Gender/County" src="images/GradRatesPerCounty.png"></a>
 
 ### English Non-Fluency by County
-This map shows the average percentage of people per county that do not speak fluent english, according to Census data. Many of the higher rates of nonfluency are in areas of high hispanic concentration.
+This map shows the average percentage of people per county that do not speak fluent english, according to US Census data. Many of the higher rates of nonfluency are in areas of high hispanic concentration.
 
 <a href="https://public.tableau.com/views/COHispanicCounties-Display/EnglishFluency?:language=en&:display_count=y&:origin=viz_share_link">
 <img border="0" alt="English Non-fluency Map" src="images/EnglishFluency.png"></a>
@@ -93,6 +96,8 @@ This bar plot shows the percentage of non-english speakers in the counties in co
 ## Food Access
 
 ### Denver Low Access (1 mile) and Low Income
+Food access analysis based on data provided by the [Colorado Department of Public Health and Environment](https://data-cdphe.opendata.arcgis.com/).
+
 Shown is a map of low access, low income census tracts throughout the city of Denver, and the percentage of people affected. The circles on the census tract areas represent the population of hispanic people. Low-income census tracts where a significant number (at least 500 people) or share (at least 33 percent) of the population is greater than 1.0 mile from the nearest supermarket, supercenter, or large grocery store for an urban area or greater than 10 miles for a rural area [[Source](https://www.ers.usda.gov/data-products/food-access-research-atlas/documentation/)].
 
 There are two areas of concern, colored orange and red that have high levels of low access. It is worth noting that the orange area is also inside zip code 80216, which has a population that is about 80% hispanic. The zip code 80216 also has very high levels of air pollution.
@@ -132,6 +137,9 @@ Sources:
 Header Image:
 https://www.ksut.org/post/covid-19-colorado-and-four-corners-numbers#stream/0
 
+Hispanic Population per County:
+https://demography.dola.colorado.gov/population/race-hispanic-origin/
+
 AQI Data Source:
 https://www.epa.gov/outdoor-air-quality-data/about-air-data-reports#aqi
 
@@ -141,7 +149,7 @@ https://www.epa.gov/outdoor-air-quality-data/air-quality-index-report
 Soil Quality: 
 https://ncsslabdatamart.sc.egov.usda.gov/querypage.aspx
 
-Census Info: English speaker, etc level of highest education
+Census Info: English fluency
 https://data.census.gov/cedsci/table?d=ACS%205-Year%20Estimates%20Data%20Profiles&table=DP02&tid=ACSDP5Y2018.DP02&y=2018&g=0400000US08,08.050000&hidePreview=true&moe=false
 
 Population by zip code Source:
@@ -150,7 +158,7 @@ http://zipatlas.com/us/co/zip-code-comparison/percentage-hispanic-population.htm
 Denver Post: Top 20 polluted Zip Codes
 https://www.denverpost.com/2017/02/16/colorado-most-polluted-zip-codes/
 
-Grad Rate Data source: 
+Graduation Rate Data source: 
 https://www.cde.state.co.us/cdereval/gradratecurrent
 
 English Non-fluency Data Source: 
