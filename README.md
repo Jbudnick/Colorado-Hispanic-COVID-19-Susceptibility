@@ -3,6 +3,7 @@
 <p>
 
 # COVID-19 Colorado Hispanic Disparity
+[Webpage (Currently Work in Progress)](https://jbudnick.github.io/Colorado-Hispanic-COVID-19-Susceptibility/)
 
 <a name='TableofContents'></a>Table of Contents
 
