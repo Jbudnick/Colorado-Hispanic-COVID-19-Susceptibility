@@ -64,20 +64,20 @@
         <div class="hero-image">
         </div>
         <header>
-            <h2>Colorado COVID-19 Hispanic Susceptibility</h2>
+            <h3>Colorado COVID-19 Hispanic Susceptibility</h3>
         </header>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="Environmental.html">Environmental Factors</a></li>
-                <li><a href="Food.html">Food Access</a></li>
-                <li><a href="Education.html">Education</a></li>
+                <li><a href="#Environment">Environmental Factors</a></li>
+                <li><a href="#Food">Food Access</a></li>
+                <li><a href="#Education">Education</a></li>
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
         
         <header>
-            <h2>Introduction</h2>
+            <h1>Introduction</h1>
         </header>
         The population of Colorado is comprised of 22% hispanic citizens, but 39% of the COVID-19 cases are afflicting hispanic
         people, far outweighing any other ethnicity. In this project, I am exploring trends in environmental factors, education,
@@ -89,7 +89,7 @@
         progress)
 
         <header>
-            <h2>Hispanic Population/Density by County</h2>
+            <h3>Hispanic Population/Density by County</h3>
         </header>
         This figure shows the percentage of hispanic people per county (shaded in blue) and the population of hispanics in said
         county is labeled. The bar graph shows another representation.
@@ -124,7 +124,499 @@
             scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; 
             vizElement.parentNode.insertBefore(scriptElement, vizElement);                
             </script>
+            <br />
             Background image Source: https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_645,q_50,w_1600/v1/clients/denver/Denver_Skyline_Sunset_Credit_Colorado_Josh_b04f3f94-326b-481b-949b-309e521ff383.jpg
 
-    </body>
+    <header>
+        <h1><a name="Environment">Environmental Factors</a></h1>
+        <h2>AQI Max 2018 Map</h2>
+    </header>
+    The following map shows the maximum recorded air quality index level for each county in Colorado (where data has
+    been
+    recorded by the Environmental Protection Agency) in the year of 2018. The circles on the map represent the
+    percentage
+    (color) and population (size) of hispanic people per each county. Based on regional trends, it appears that the
+    center
+    of the state west of Denver has recorded unhealthy air qualities. This could be due to wildfires in the mountains.
+
+    Air Quality Index is an indicator of overall air quality, because it takes into account all of the criteria air
+    pollutants measured within a geographic area. AQI includes all available pollutant measurements from each monitoring
+    station. They include both qualitative measures (days of the year having "good" air quality, for example) and
+    descriptive statistics (median AQI value, for example) <a
+        href="https://www.epa.gov/outdoor-air-quality-data/about-air-data-reports#aqi">[Source]</a>
+
+    <div class='tableauPlaceholder' id='viz1597250938000' style='position: relative'><noscript><a href='#'><img alt=' '
+                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COHispanicCounties&#47;AQIMax2018Map_Doc&#47;1_rss.png'
+                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='COHispanicCounties&#47;AQIMax2018Map_Doc' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COHispanicCounties&#47;AQIMax2018Map_Doc&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en' />
+            <param name='filter' value='publish=yes' /></object></div>
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1597250938000');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        if (divElement.offsetWidth > 800) {
+            vizElement.style.width = '850px';
+            vizElement.style.height = '527px';
+        }
+        else if (divElement.offsetWidth > 500) { vizElement.style.width = '850px'; vizElement.style.height = '527px'; }
+        else { vizElement.style.width = '100%'; vizElement.style.height = '727px'; }
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    </script>
+    <header>
+        <h2>AQI Median 2018 Plot</h2>
+    </header>
+    This plot shows the median Air Quality index in 2018 for each county in Colorado that has data recorded from the
+    Environmental Protection Agency (EPA). There appears to be a positive correlation between the size of the population
+    and
+    the median air quality index level. It it worth noting that many of the counties exhibiting a higher AQI have high
+    hispanic populations.
+    <div class='tableauPlaceholder' id='viz1597633144368' style='position: relative'><noscript><a href='#'><img alt=' '
+                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COHispanicCounties&#47;AQIMedian2018Doc&#47;1_rss.png'
+                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='COHispanicCounties&#47;AQIMedian2018Doc' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COHispanicCounties&#47;AQIMedian2018Doc&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en' />
+            <param name='filter' value='publish=yes' /></object></div>
+    <script type='text/javascript'>                    var divElement = document.getElementById('viz1597633144368'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '850px'; vizElement.style.height = '527px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '850px'; vizElement.style.height = '527px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '727px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    </script>
+    <header>
+        <h2>Most Polluted Zip Codes in Colorado</h2>
+    </header>
+    The most polluted zip codes in Colorado, according to the Denver post, are plotted in the map below. The zip code
+    80216
+    has an extremely high environmental hazard index, and also a very high concentration of hispanic people. The next
+    most
+    polluted zip codes do not appear to be nearly as hazardous, but generally have a smaller percentage of hispanic
+    residents.
+    <div class='tableauPlaceholder' id='viz1597633281117' style='position: relative'><noscript><a href='#'><img alt=' '
+                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Zi&#47;ZipCodeEnvironmentalHazard&#47;MostPollutedZipCodes&#47;1_rss.png'
+                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='ZipCodeEnvironmentalHazard&#47;MostPollutedZipCodes' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Zi&#47;ZipCodeEnvironmentalHazard&#47;MostPollutedZipCodes&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en' />
+            <param name='filter' value='publish=yes' /></object></div>
+    <script
+        type='text/javascript'>                    var divElement = document.getElementById('viz1597633281117'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '727px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+    <header>
+        <h1><a name="Food">Food Access</a></h1>
+        <h2>Denver Low Access (1 mile) and Low Income</h2>
+    </header>
+    Food access analysis based on data provided by the <a href="https://data-cdphe.opendata.arcgis.com/">Colorado
+        Department of Public Health and
+        Environment</a>
+
+    Shown is a map of low access, low income census tracts throughout the city of Denver, and the percentage of people
+    affected. The circles on the census tract areas represent the population of hispanic people. Low-income census
+    tracts
+    where a significant number (at least 500 people) or share (at least 33 percent) of the population is greater than
+    1.0
+    mile from the nearest supermarket, supercenter, or large grocery store for an urban area or greater than 10 miles
+    for a
+    rural area <a href="https://www.ers.usda.gov/data-products/food-access-research-atlas/documentation/">[Source]</a>.
+
+    There are two areas of concern, colored orange and red that have high levels of low access. It is worth noting that
+    the
+    orange area is also inside zip code 80216, which has a population that is about 80% hispanic. The zip code 80216
+    also
+    has very high levels of air pollution.
+    <div class='tableauPlaceholder' id='viz1597696793943' style='position: relative'><noscript><a href='#'><img alt=' '
+                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fo&#47;FoodDesertsCO&#47;LowAccessLowIncome1MiDenver&#47;1_rss.png'
+                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='FoodDesertsCO&#47;LowAccessLowIncome1MiDenver' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fo&#47;FoodDesertsCO&#47;LowAccessLowIncome1MiDenver&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en' />
+            <param name='filter' value='publish=yes' /></object></div>
+    <script
+        type='text/javascript'>                    var divElement = document.getElementById('viz1597696793943'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '727px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <header>
+        <h2>Metro Denver Low Access (1 mile)</h2>
+    </header>
+    This map represents metro Denver census tracts and the tracts that are considered low access. There are several
+    census
+    tracts with low access and high hispanic populations.
+    <div class='tableauPlaceholder' id='viz1597696839934' style='position: relative'><noscript><a href='#'><img alt=' '
+                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fo&#47;FoodDesertsCO&#47;MetroDenverLowAccessTract1miUrban&#47;1_rss.png'
+                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='FoodDesertsCO&#47;MetroDenverLowAccessTract1miUrban' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fo&#47;FoodDesertsCO&#47;MetroDenverLowAccessTract1miUrban&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en' />
+            <param name='filter' value='publish=yes' /></object></div>
+    <script
+        type='text/javascript'>                    var divElement = document.getElementById('viz1597696839934'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '727px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <header>
+        <h2>Denver Low Vehicle Access</h2>
+    </header>
+    This map represents metro Denver census tracts that are low access and a signicant number of people have low access
+    to a
+    vehicle. It does not appear that the lack of vehicle and low access affects the hispanic population exclusively.
+    <div class='tableauPlaceholder' id='viz1597696874256' style='position: relative'><noscript><a href='#'><img alt=' '
+                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fo&#47;FoodDesertsCO&#47;DenverLowVehicleAccess&#47;1_rss.png'
+                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='FoodDesertsCO&#47;DenverLowVehicleAccess' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fo&#47;FoodDesertsCO&#47;DenverLowVehicleAccess&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en' />
+            <param name='filter' value='publish=yes' /></object></div>
+    <script
+        type='text/javascript'>                    var divElement = document.getElementById('viz1597696874256'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '727px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <header>
+        <h2>Low Access (20+ mile) and No Vehicle Access</h2>
+    </header>
+    This plot represents the census tracks in Colorado that are more than 20 miles away from the nearest grocery store
+    or
+    supermarket and have little to no vehicle access. Although not a large quantity of hispanics fall into this
+    category, it
+    is worth noting that the census tracts with the highest percentage of housing units effected also appear to be
+    largely
+    hispanic communities. Costilla County contains the top two census tracts with the highest levels.
+    <div class='tableauPlaceholder' id='viz1597696897821' style='position: relative'><noscript><a href='#'><img alt=' '
+                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fo&#47;FoodDesertsCO&#47;LowAccess20miNoVehicleAccessTract&#47;1_rss.png'
+                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='FoodDesertsCO&#47;LowAccess20miNoVehicleAccessTract' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fo&#47;FoodDesertsCO&#47;LowAccess20miNoVehicleAccessTract&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en' />
+            <param name='filter' value='publish=yes' /></object></div>
+    <script
+        type='text/javascript'>                    var divElement = document.getElementById('viz1597696897821'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '727px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+    <header>
+        <h1><a name="Education">Educational Factors</a></h1>
+        <h2>Hispanic Graduation Rates by County</h2>
+    </header>
+    <p>
+        This map shows the class of 2019 graduation rates of hispanic people over the counties of Colorado, based on
+        data from
+        the <a href="https://www.cde.state.co.us/">Colorado Department of Education</a>. There appears to be much lower
+        rates in rural
+        counties, though few of them are highly hispanic.
+    </p>
+    <div class='tableauPlaceholder' id='viz1597696356339' style='position: relative'><noscript><a href='#'><img alt=' '
+                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COHispanicCounties&#47;HispanicGraduationRatesbyCountyDoc&#47;1_rss.png'
+                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='COHispanicCounties&#47;HispanicGraduationRatesbyCountyDoc' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COHispanicCounties&#47;HispanicGraduationRatesbyCountyDoc&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en' />
+            <param name='filter' value='publish=yes' /></object></div>
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1597696356339');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        if (divElement.offsetWidth > 800) {
+            vizElement.style.width = '800px';
+            vizElement.style.height = '527px';
+        }
+        else if (divElement.offsetWidth > 500) {
+            vizElement.style.width = '800px';
+            vizElement.style.height = '527px';
+        }
+        else {
+            vizElement.style.width = '100%';
+            vizElement.style.height = '727px';
+        }
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    </script>
+    <p>
+        This plot shows that there appears to be a negative trend in graduation rates as the population increases. Also,
+        it is
+        important to note that the hispanic graduation rate is considerably lower than that of all compiled races. This
+        disparity seems to get larger in counties with higher population. It may be possible that hispanics in urban
+        counties
+        aren't getting the educational resources they need to succeed.
+    </p>
+    <div class='tableauPlaceholder' id='viz1597696468483' style='position: relative'><noscript><a href='#'><img alt=' '
+                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COHispanicCounties&#47;GraduationRateperCountybyTotalPopulation&#47;1_rss.png'
+                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='COHispanicCounties&#47;GraduationRateperCountybyTotalPopulation' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COHispanicCounties&#47;GraduationRateperCountybyTotalPopulation&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en' />
+            <param name='filter' value='publish=yes' /></object></div>
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1597696468483');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        if (divElement.offsetWidth > 800) {
+            vizElement.style.width = '800px';
+            vizElement.style.height = '527px';
+        }
+        else if (divElement.offsetWidth > 500) {
+            vizElement.style.width = '800px';
+            vizElement.style.height = '527px';
+        }
+        else {
+            vizElement.style.width = '100%';
+            vizElement.style.height = '927px';
+        }
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    </script>
+    <header>
+        <h2>Graduation Rates by Ethnicity</h2>
+    </header>
+    <p>
+        This bar plot represents the race/ethnicity breakdown of high school graduation rates in the state of Denver.
+        Again,
+        hispanics have graduation rates below the other major races, and they appear worse in Denver county.
+    </p>
+    <div class='tableauPlaceholder' id='viz1597696579526' style='position: relative'><noscript><a href='#'><img alt=' '
+                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COHispanicCounties&#47;GradRatesbyRace&#47;1_rss.png'
+                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='COHispanicCounties&#47;GradRatesbyRace' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COHispanicCounties&#47;GradRatesbyRace&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en' />
+            <param name='filter' value='publish=yes' /></object></div>
+    <script
+        type='text/javascript'>                    var divElement = document.getElementById('viz1597696579526'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '727px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <p>
+        This bar plot represents ethnicity/race breakdown of female graduation races throughout the state and in Denver
+        county.
+        Again, hispanics seem to have lower graduation rates than those of other ethnicities in Colorado.
+    </p>
+    <div class='tableauPlaceholder' id='viz1597696609640' style='position: relative'><noscript><a href='#'><img alt=' '
+                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COHispanicCounties&#47;FemaleGradRates&#47;1_rss.png'
+                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='COHispanicCounties&#47;FemaleGradRates' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COHispanicCounties&#47;FemaleGradRates&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en' />
+            <param name='filter' value='publish=yes' /></object></div>
+    <script
+        type='text/javascript'>                    var divElement = document.getElementById('viz1597696609640'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '727px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <p>
+        This bar plot represents ethnicity/race breakdown of male graduation races throughout the state and in Denver
+        county.
+        Male hispanics seem to have lower graduation rates than those of most other ethnicities as well. It is worth
+        noting that
+        the graduation rates are significantly lower in Denver than throughout the whole state.
+    </p>
+    <div class='tableauPlaceholder' id='viz1597696645908' style='position: relative'><noscript><a href='#'><img alt=' '
+                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COHispanicCounties&#47;MaleGraduationRatesbyRaceCounty&#47;1_rss.png'
+                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='COHispanicCounties&#47;MaleGraduationRatesbyRaceCounty' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COHispanicCounties&#47;MaleGraduationRatesbyRaceCounty&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en' />
+            <param name='filter' value='publish=yes' /></object></div>
+    <script
+        type='text/javascript'>                    var divElement = document.getElementById('viz1597696645908'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '727px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <header>
+        <h2>Hispanic Graduation Rates by Gender/County</h2>
+    </header>
+    <p>
+        From this bar plot, hispanic females seem to have much higher graduation rates than hispanic males. It is
+        interesting
+        that Pueblo County has higher graduation rates for Hispanic males and females than average - this is the only
+        highly
+        populated county in the state to show this trend.
+    </p>
+    <div class='tableauPlaceholder' id='viz1597696669987' style='position: relative'><noscript><a href='#'><img alt=' '
+                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COHispanicCounties&#47;Dashboard9&#47;1_rss.png'
+                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='COHispanicCounties&#47;Dashboard9' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COHispanicCounties&#47;Dashboard9&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en' />
+            <param name='filter' value='publish=yes' /></object></div>
+    <script
+        type='text/javascript'>                    var divElement = document.getElementById('viz1597696669987'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '727px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <header>
+        <h2>English Non-Fluency by County</h2>
+    </header>
+    <p>
+        This map shows the average percentage of people per county that do not speak fluent english, according to US
+        Census
+        data. Many of the higher rates of nonfluency are in areas of high hispanic concentration.
+    </p>
+    <div class='tableauPlaceholder' id='viz1597696725593' style='position: relative'><noscript><a href='#'><img alt=' '
+                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COHispanicCounties&#47;EnglishFluency&#47;1_rss.png'
+                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='COHispanicCounties&#47;EnglishFluency' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COHispanicCounties&#47;EnglishFluency&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en' />
+            <param name='filter' value='publish=yes' /></object></div>
+    <script
+        type='text/javascript'>                    var divElement = document.getElementById('viz1597696725593'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '727px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+    <p>
+        This bar plot shows the percentage of non-english speakers in the counties in colorado with the highest
+        concentration of
+        those not fluent in English. Spanish is definitely the most common non-english language spoken throughout these
+        areas.
+    </p>
+    <div class='tableauPlaceholder' id='viz1597696758299' style='position: relative'><noscript><a href='#'><img alt=' '
+                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COHispanicCounties&#47;Dashboard11&#47;1_rss.png'
+                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='COHispanicCounties&#47;Dashboard11' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CO&#47;COHispanicCounties&#47;Dashboard11&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en' />
+            <param name='filter' value='publish=yes' /></object></div>
+    <script
+        type='text/javascript'>                    var divElement = document.getElementById('viz1597696758299'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '800px'; vizElement.style.height = '527px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '727px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+</body>
+
 </html>
