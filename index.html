@@ -51,7 +51,50 @@
         top: 0;
         }
 
+        #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: red;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+        }
+
+        #myBtn:hover {
+        background-color: #555;
+        }
+
     </style>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
         <header>
         <p align="left">
             <a href="https://www.hispanicchamberdenver.com/" target="_blank">
@@ -72,8 +115,8 @@
                 <li><a href="#Environment">Environmental Factors</a></li>
                 <li><a href="#Food">Food Access</a></li>
                 <li><a href="#Education">Education</a></li>
+                <li><a href="#Contact">Contact</a></li>
                 <li><a href="#Sources">Sources</a></li>
-                <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
         
@@ -622,11 +665,64 @@
     <header>
         <br />
         <hr>
+        <h1><a name="Contact"></a></h1>
+        <h2>Contact</h2>
+    </header>
+
+            Jacob Budnick <br />
+            <a href="mailto:Jbudnick5@gmail.com">Jbudnick5@gmail.com</a>Jbudnick5@gmail.com<br />
+            <a href="https://www.linkedin.com/in/jacobbudnick/">LinkedIn:/jacobbudnick</a>
+            
+            <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+            <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal"
+                data-theme="light" data-vanity="jacobbudnick"><a class="LI-simple-link"
+                    href='https://www.linkedin.com/in/jacobbudnick?trk=profile-badge'>Jacob Budnick</a></div>
+    
+        <header>
+        <br />
+        <hr>
         <h1><a name="Sources"></a></h1>
         <h2>Sources</h2>
     </header>
     <p>
-        Background image Source: https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_645,q_50,w_1600/v1/clients/denver/Denver_Skyline_Sunset_Credit_Colorado_Josh_b04f3f94-326b-481b-949b-309e521ff383.jpg
+        Background image Source: <br />
+        https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_645,q_50,w_1600/v1/clients/denver/Denver_Skyline_Sunset_Credit_Colorado_Josh_b04f3f94-326b-481b-949b-309e521ff383.jpg<br />
+        <br />
+        Header Image:<br />
+        https://www.ksut.org/post/covid-19-colorado-and-four-corners-numbers#stream/0<br />
+        <br />
+        Hispanic Population per County:<br />
+        https://demography.dola.colorado.gov/population/race-hispanic-origin/<br />
+        <br />
+        AQI Data Source:<br />
+        https://www.epa.gov/outdoor-air-quality-data/about-air-data-reports#aqi<br />
+        <br />
+        Air pollution by county<br />
+        https://www.epa.gov/outdoor-air-quality-data/air-quality-index-report<br />
+        <br />
+        Soil Quality:<br />
+        https://ncsslabdatamart.sc.egov.usda.gov/querypage.aspx<br />
+        <br />
+        Census Info: English fluency<br />
+        https://data.census.gov/cedsci/table?d=ACS%205-Year%20Estimates%20Data%20Profiles&table=DP02&tid=ACSDP5Y2018.DP02&y=2018&g=0400000US08,08.050000&hidePreview=true&moe=false<br />
+        <br />
+        Population by zip code Source:<br />
+        http://zipatlas.com/us/co/zip-code-comparison/percentage-hispanic-population.htm<br />
+        <br />
+        Denver Post: Top 20 polluted Zip Codes<br />
+        https://www.denverpost.com/2017/02/16/colorado-most-polluted-zip-codes/<br />
+        <br />
+        Graduation Rate Data source:<br />
+        https://www.cde.state.co.us/cdereval/gradratecurrent<br />
+        <br />
+        English Non-fluency Data Source:<br />
+        https://data.census.gov/cedsci/table?d=ACS%205-Year%20Estimates%20Data%20Profiles&table=DP02&tid=ACSDP5Y2018.DP02&y=2018&g=0400000US08,08.050000&hidePreview=true&moe=false<br />
+        
+        Food Desert Source:<br />
+        https://data-cdphe.opendata.arcgis.com/datasets/755f5bf71cbc4b98b1c22785f3fe14ae_0?geometry=-112.745%2C37.404%2C-97.089%2C40.396&page=8&selectedAttribute=lahunv20share<br />
+        <br />
+        Race/Ethnicity by Census Tract:<br />
+        https://data-cdphe.opendata.arcgis.com/datasets/f64104fe9a07488da9d9f95c2c5238a1_7?selectedAttribute=Ethinicity_Hispanic_Latino<br />
     </p>
     </body>
 
