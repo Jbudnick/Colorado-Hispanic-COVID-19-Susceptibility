@@ -1,11 +1,14 @@
 <p align="center">
-<img src="images/header.jpg" width="400">
+<a href="https://jbudnick.github.io/Colorado-Hispanic-COVID-19-Susceptibility/">
+<img src="images/header.jpg" width="400"></a>
 <p>
 
 # COVID-19 Colorado Hispanic Disparity
-<a href="https://jbudnick.github.io/Colorado-Hispanic-COVID-19-Susceptibility/" target="_blank">Webpage</a>
+<a href="https://jbudnick.github.io/Colorado-Hispanic-COVID-19-Susceptibility/" target="_blank">Click here for webpage version of this project</a>
 
-<a name='TableofContents'></a>Table of Contents
+<a name='TableofContents'></a>
+
+## Table of Contents
 
 <!-- vscode-markdown-toc -->
 * [Environmental Factors](#EnvironmentalFactors)
@@ -76,7 +79,7 @@ Ths plot shows that there appears to be a negative trend in graduation rates as 
 <img border="0" alt="Hispanic Grad Rates Plot" src="images/GraduationRateperCountybyTotalPopulation.png"></a>
 
 ### <a name='GraduationRatesbyEthnicity'></a>Graduation Rates by Ethnicity
-This bar plot represents the race/ethnicity breakdown of high school graduation rates in the state of Denver. Again, hispanics have graduation rates below the other major races, and they appear worse in Denver county.
+This bar plot represents the race/ethnicity breakdown of high school graduation rates in the state of Colorado. Again, hispanics have graduation rates below the other major races, and they appear worse in Denver county.
 
 <a href="https://public.tableau.com/views/COHispanicCounties-Display/GradRatesbyRace?:language=en&:display_count=y&:origin=viz_share_link">
 <img border="0" alt="Hispanic Grad Rates by Ethnicity" src="images/GradRatesbyRace.png"></a>
