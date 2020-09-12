@@ -23,7 +23,7 @@
 
 
 ## <a name='Introduction'></a>Introduction
-The population of Colorado is comprised of 22% hispanic citizens, but 39% of the COVID-19 cases are afflicting hispanic people, far outweighing any other ethnicity. In this project, I am exploring trends in environmental factors, education, and food availability in regions of the state with high hispanic populations to determine possible trends in these areas to account for this disparity.
+The population of Colorado is comprised of 22% hispanic citizens, but 39% of the COVID-19 cases are afflicting hispanic people, far outweighing any other ethnicity. In this project, I have explored trends in environmental factors, education, and food availability in regions of the state with high hispanic populations to determine possible trends in these areas to account for this disparity.
 
 This project is in collaboration with Halvatzis Consulting and Colorado Hispanic Chamber of Commerce on Market Insights Report # 1002 - Driving Equitable Growth in Colorado: A Look Back to Move Forward (full report currently work in progress)
 
@@ -35,25 +35,25 @@ This project is in collaboration with Halvatzis Consulting and Colorado Hispanic
 <img border="0" alt="Halvatzis Consulting" src="images/Halvatzis.png" width="200"></a>
 <p>
 
-Please note that all the figures shown below are linked to the Tableau Public interactive version and can be further explored.
+Please note that all the figures shown below are linked to the Tableau Public interactive version and can be further explored by clicking on them. They are also embedded with full interactivity on the <a href="https://jbudnick.github.io/Colorado-Hispanic-COVID-19-Susceptibility/" target="_blank">webpage</a>.
 
 ### <a name='HispanicPopulationDensitybyCounty'></a>Hispanic Population/Density by County
-This figure shows the percentage of hispanic people per county (shaded in blue) and the population of hispanics in said county is labeled on the map. The bar graph shows another representation. It appears that Pueblo County, Adams County, Weld County, and Denver County have both a high concentration and high number of hispanic residents. The population data came from the [Colorado Department of Local Affairs](https://demography.dola.colorado.gov/population/race-hispanic-origin/).
+This figure shows the percentage of hispanic people per county (shaded in blue) and the population of hispanics in said county is labeled on the map. The bar graph shows the data in a bar graph representation. It appears that Pueblo County, Adams County, Weld County, and Denver County have both a high concentration and high number of hispanic residents. The population data came from the [Colorado Department of Local Affairs](https://demography.dola.colorado.gov/population/race-hispanic-origin/).
 
 <a href="https://public.tableau.com/shared/JCBFRJDR6?:display_count=y&:origin=viz_share_link">
 <img border="0" alt="Hispanic Population/Density Per County" src="images/HispanicPopulation.png"></a>
 
 ## <a name='EnvironmentalFactors'></a>Environmental Factors
 
-### <a name='AQIMax2018Map'></a>AQI Max 2018 Map
+### <a name='AQIMax2018Map'></a>2018 Maximum Air Quality Index (AQI) Map
 The following map shows the maximum recorded air quality index level for each county in Colorado (where data has been recorded by the Environmental Protection Agency) in the year of 2018. The circles on the map represent the percentage (color) and population (size) of hispanic people per each county. Based on regional trends, it appears that the center of the state west of Denver has recorded unhealthy air qualities. This could be due to wildfires in the mountains.
 
-Air Quality Index is an indicator of overall air quality, because it takes into account all of the criteria air pollutants measured within a geographic area. AQI includes all available pollutant measurements from each monitoring station. They include both qualitative measures (days of the year having "good" air quality, for example) and descriptive statistics (median AQI value, for example) [[Source](https://www.epa.gov/outdoor-air-quality-data/about-air-data-reports#aqi)]
+Air Quality Index is an indicator of overall air quality, because it takes into account all of the criteria air pollutants measured within a geographic area. AQI includes all available pollutant measurements from each monitoring station. They include both qualitative measures (days of the year having "good" air quality, for example) and descriptive statistics (median AQI value, for example). [[Source: Environmental Protection Agency (EPA)](https://www.epa.gov/outdoor-air-quality-data/about-air-data-reports#aqi)]
 
 <a href="https://public.tableau.com/views/COHispanicCounties-Display/MaximumAirQualityIndex2018Map_Doc?:language=en&:display_count=y&:origin=viz_share_link">
 <img border="0" alt="Max AQI Map" src="images/MaximumAQI.png"></a>
 
-### <a name='AQIMedian2018Plot'></a>AQI Median 2018 Plot
+### <a name='AQIMedian2018Plot'></a>2018 Median AQI Plot
 This plot shows the median Air Quality index in 2018 for each county in Colorado that has data recorded from the Environmental Protection Agency (EPA). There appears to be a positive correlation between the size of the population and the median air quality index level. It it worth noting that many of the counties exhibiting a higher AQI have high hispanic populations. Both Adams County and Denver county show high hispanic populations and the highest median AQI.
 
 <a href="https://public.tableau.com/views/COHispanicCounties-Display/AQIMedian2018Doc?:language=en&:display_count=y&:origin=viz_share_link">
@@ -148,9 +148,8 @@ There appears to be several regions in the state of Colorado where hispanics may
 
 ## <a name='FutureAnalysisIdeas:'></a>Future Analysis Ideas:
 
-- Analyze Soil Quality
-- Analyze Water Quality
-- Analyze various levels of education per county
+- Analyze soil & water quality and add to Environmental Factors Analysis
+- Analyze various levels of education per county and add to Educational Factors Analysis
 
 ## Sources:
 
